@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Compiled binaries
+*.exe
+*.o
+*.out
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vue / Vite
+dist/
+*.local
+
+# Flutter / Dart
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
